@@ -1,32 +1,72 @@
-h1 {font-size: 50px;
-	font-weight: 2px;
-	text-align: center;
-	color: blue;
+/*
+ First External CSS Stylesheet
+ */
 
-
-
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
 }
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
 h2 {
-	font-size: 20px;
-	color:green;
+  font-size: 24px;
 }
 
-h3 {
-	color:brown;
-}
-img{
-	box-shadow: 10px 10px 5px black;
+a {
+  color: #d21034;
 }
 
-section{
-	background-color: green;
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
-p{
-	font-size: 30px;
+/* Selecting elements by ID */
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
 }
 
-ul{
-	border: 2;
-	font-size:30px;
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 180px;
+  
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
 }
