@@ -1,0 +1,32 @@
+h1 {font-size: 50px;
+	font-weight: 2px;
+	text-align: center;
+	color: blue;
+
+
+
+}
+h2 {
+	font-size: 20px;
+	color:green;
+}
+
+h3 {
+	color:brown;
+}
+img{
+	box-shadow: 10px 10px 5px black;
+}
+
+section{
+	background-color: green;
+}
+
+p{
+	font-size: 30px;
+}
+
+ul{
+	border: 2;
+	font-size:30px;
+}
